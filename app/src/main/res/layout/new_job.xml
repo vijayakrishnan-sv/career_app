@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yellow">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Create Job"
+
+                android:textSize="20dp"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:id="@+id/linear_layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/newjob_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Job Title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/newjob_org"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Organisation" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/newjob_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Phone Number"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/newjob_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Address" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="Add" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

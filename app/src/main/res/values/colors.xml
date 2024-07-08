@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="teal">#FF03DAC5</color>
+    <color name="teal2">#FF03DAC5</color>
+    <color name="teal3">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFC300</color>
+    <color name="blue">#6495ED</color>
+    <color name="purple">#FFBB86FC</color>
+    <color name="purple1">#FF6200EE</color>
+    <color name="p3">#FF3700B3</color>
+
+</resources>

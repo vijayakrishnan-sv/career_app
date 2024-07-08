@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CareerPortal</string>
+    <string name="country">Country</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_registration">User Registration</string>
+</resources>
